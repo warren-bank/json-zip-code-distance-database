@@ -1,0 +1,20 @@
+--------------------------------------------------------------------------------
+
+MySQL built-in function(s):
+===========================
+
+https://dev.mysql.com/doc/refman/5.7/en/spatial-convenience-functions.html#function_st-distance-sphere
+
+--------------------------------------------------------------------------------
+
+strategies for highly efficient stored procedures:
+==================================================
+
+https://stackoverflow.com/questions/1006654/fastest-way-to-find-distance-between-two-lat-long-points
+https://stackoverflow.com/questions/1006654/fastest-way-to-find-distance-between-two-lat-long-points/1006769#1006769
+
+https://www.scribd.com/presentation/2569355/Geo-Distance-Search-with-MySQL
+
+https://cdn.oreillystatic.com/en/assets/1/event/2/Geo%20Distance%20Search%20with%20MySQL%20Presentation.ppt
+
+--------------------------------------------------------------------------------
