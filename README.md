@@ -42,7 +42,7 @@
 
 * the `master` branch of the repo uses `.gitignore` to prevent inclusion of the exported data files
   * both SQL and JSON
-* the `ghpages` branch of the repo includes only the JSON data files
+* the `gh-pages` branch of the repo includes only the JSON data files
   * Github Pages are served with the CORS response HTTP header: `Access-Control-Allow-Origin: *`
     * the JSON data files can be requested and used by any SPA, via XHR
   * the filename of each JSON data file follows the naming convention: `${5-digit zip code}.json`
