@@ -31,7 +31,10 @@
     * output:
       * JSON
         * Array of Objects
-          * `[{"dist": 2.50, "zip": "90210"}]`
+          * `[{"dist": 2.5, "zip": "90210"}]`
+            * `dist`:
+              * unit = miles
+              * precision = 1 decimal place (ie: 1/10th of a mile)
 * wrote some shell scripts
   * load the schema, data, and stored procedures into MySQL
   * populate the many-to-many mapping table in MySQL
@@ -89,7 +92,7 @@
   * I just found this dataset, and I'm pretty much laughing at myself that I effectively duplicated their entire project
     * The dataset that I generated uses a 100 mile radius
       * This distance range can be easily configured
-      * If it were to be increased by an order of magnitude, then the database schema would need to be adjusted to allow for longer decimal values
+      * If it were to be increased by an order of magnitude, then the [database schema](https://github.com/warren-bank/json-zip-code-distance-database/blob/master/2.%20MySQL%20data%20transformation/2.%20data/1.%20input/1.%20sql/1.%20schema.sql#L25) would need to be adjusted to allow `zipcode_mapping.distance` to contain longer decimal values
     * Several datasets are available from the _NBER_
       * including [one](http://www.nber.org/distance/2016/gaz/zcta5/gaz2016zcta5distance100miles.csv.zip) that uses a 100 mile radius
         * _to do_: I'd like to compare our results

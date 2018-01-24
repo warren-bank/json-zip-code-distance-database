@@ -1,0 +1,7 @@
+# https://github.com/github/linguist
+# https://github.com/github/linguist#vendored-code
+# https://github.com/github/linguist/blob/master/lib/linguist/languages.yml
+
+*.html linguist-vendored=true
+
+* linguist-language=SQLPL
